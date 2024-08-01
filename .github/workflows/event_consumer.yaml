@@ -14,5 +14,5 @@ jobs:
         run: |
            echo ${{ secrets.TECVINSON_GHCR_TOKEN }} | docker login ghcr.io -u yemveiser --password-stdin
            docker build . --tag ghcr.io/yemveiser/eventmatcha-consumer-service:latest
-           docker push ghcr.io/yemveiser/eventmatcha-ollama:latest
+           docker push ghcr.io/yemveiser/eventmatcha-consumer-service:latest
            
