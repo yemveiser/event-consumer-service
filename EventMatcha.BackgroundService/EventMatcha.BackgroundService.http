@@ -1,0 +1,6 @@
+@ EventMatcha.BackgroundService_HostAddress = http://localhost:5157
+
+GET {{ EventMatcha.BackgroundService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

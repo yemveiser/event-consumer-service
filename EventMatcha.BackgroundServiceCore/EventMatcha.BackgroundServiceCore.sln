@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventMatcha.BackgroundServiceCore", "EventMatcha.BackgroundServiceCore.csproj", "{CE9F8000-98EB-4827-BEBB-E649559485A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMatcha.BackgroundServiceCoreConsole", "..\EventMatcha.BackgroundServiceCoreConsole\EventMatcha.BackgroundServiceCoreConsole.csproj", "{D0A4B49D-4896-4243-A6F7-6F128594D551}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE9F8000-98EB-4827-BEBB-E649559485A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9F8000-98EB-4827-BEBB-E649559485A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9F8000-98EB-4827-BEBB-E649559485A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9F8000-98EB-4827-BEBB-E649559485A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A4B49D-4896-4243-A6F7-6F128594D551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A4B49D-4896-4243-A6F7-6F128594D551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A4B49D-4896-4243-A6F7-6F128594D551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A4B49D-4896-4243-A6F7-6F128594D551}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0958B52-4BA6-46B5-89E3-118A9A98D05E}
+	EndGlobalSection
+EndGlobal
